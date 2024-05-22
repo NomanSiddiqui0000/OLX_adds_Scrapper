@@ -13,9 +13,9 @@ class OlxAddsSpider(scrapy.Spider):
         hrefs = response.css("div.a52608cc > a::attr(href)").getall()
         base_url = response.url  # Get the base URL
         for href in hrefs:
-            
+
             absolute_url = urljoin(base_url, href)
-            time.sleep(0.5)
+            # time.sleep(0.5)
             yield scrapy.Request(url=absolute_url, callback=self.parse_item)
         yield from self.parse_nextpage(response)
 
