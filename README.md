@@ -54,7 +54,8 @@ pip install scrapy
 3. Install the required dependencies:  
 
     ```bash
-    pip install -r requirements.txt
+    pip install scrapy
+    pip install requests
     ```
 
 ## Usage  
@@ -74,8 +75,7 @@ pip install scrapy
 
 ## Notes  
 
-- The scraper is designed for **OLX Pakistan**, and structural changes to the site may require adjustments.  
-- **Respect the website's terms of service** while scraping.  
+- The scraper is designed for **OLX Pakistan**, and structural changes to the site may require adjustments. 
 - If the scraper stops working, check for **updated CSS selectors** and modify them accordingly.  
 
 ## License  
@@ -84,5 +84,5 @@ This project is licensed under the **MIT License**.
 
 ## Author  
 
-**Muhammad Noman Siddiqui**  
+**Muhammad Noman**  
 [GitHub Profile](https://github.com/NomanSiddiqui0000)
