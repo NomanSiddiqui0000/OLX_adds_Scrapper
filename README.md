@@ -42,7 +42,7 @@ pip install scrapy
 1. Clone this repository:  
 
     ```bash
-    git clone https://github.com/yourusername/olx-scraper.git
+    git clone https://github.com/NomanSiddiqui0000/OLX_adds_Scrapper
     ```
 
 2. Navigate to the project directory:  
